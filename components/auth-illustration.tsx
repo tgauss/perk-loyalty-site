@@ -7,20 +7,20 @@ export const AuthIllustration = () => {
     <div className="relative flex min-h-80 flex-col items-start justify-end overflow-hidden rounded-2xl bg-black p-4 md:p-8">
       <div className="relative z-40 mb-2 flex items-center gap-2">
         <p className="rounded-md bg-black/50 px-2 py-1 text-xs text-white">
-          Product Company
+          CPG Brand
         </p>
         <p className="rounded-md bg-black/50 px-2 py-1 text-xs text-white">
-          Cloud Management
+          Customer Loyalty
         </p>
       </div>
       <div className="relative z-40 max-w-sm rounded-xl bg-black/50 p-4 backdrop-blur-sm">
         <h2 className="text-white">
-          Nodus has completely changed how we work. What used to take hours
-          every week is now fully automated.
+          Perk transformed our customer engagement. We went from manual campaigns
+          to autopilot rewards in weeks. Our members are more active than ever.
         </h2>
-        <p className="mt-4 text-sm text-white/50">Gina Clinton</p>
+        <p className="mt-4 text-sm text-white/50">Sarah Mitchell</p>
         <p className="mt-1 text-sm text-white/50">
-          Head of Product, <span className="font-bold">Acme Inc.</span>
+          VP of Marketing, <span className="font-bold">Mars Petcare</span>
         </p>
       </div>
 

@@ -23,8 +23,8 @@ export const Contact = () => {
           <LogoSVG />
           <Heading className="mt-4 text-left lg:text-4xl">Contact us</Heading>
           <SubHeading as="p" className="mt-4 max-w-xl text-left">
-            We empower developers and technical teams to create, simulate, and
-            manage AI-driven workflows visually
+            Ready to turn your content and commerce into a powerful loyalty program?
+            Let&apos;s talk about how Perk can help you grow.
           </SubHeading>
           <form className="mt-6 flex flex-col gap-8">
             <div className="h-full w-full rounded-2xl">
