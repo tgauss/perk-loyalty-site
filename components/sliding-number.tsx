@@ -92,11 +92,17 @@ export function SlidingNumber({
     <div className="flex items-center">
       {value < 0 && "-"}
       {integerDigits.map((_, index) => (
-        <Digit
-          key={`pos-${integerPlaces[index]}`}
-          value={integerValue}
-          place={integerPlaces[index]}
-        />
+        <>
+          <Digit
+            key={`pos-${integerPlaces[index]}`}
+            value={integerValue}
+            place={integerPlaces[index]}
+          />
+          {/* Add comma separator for thousands */}
+          {integerPlaces[index] > 1 && integerPlaces[index] % 1000 === 0 && index < integerDigits.length - 1 && (
+            <span key={`comma-${index}`}>,</span>
+          )}
+        </>
       ))}
       {decimalPart && (
         <>

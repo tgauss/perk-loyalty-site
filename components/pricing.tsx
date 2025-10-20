@@ -38,7 +38,7 @@ export const Pricing = () => {
               </p>
               {tier.monthly !== null ? (
                 <span className="mt-6 flex items-baseline text-2xl font-medium dark:text-white">
-                  $
+                  <span className="text-sm align-super">$</span>
                   <Price value={tier.monthly} />
                   <span className="ml-2 text-sm font-normal">/month</span>
                 </span>

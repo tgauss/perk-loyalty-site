@@ -107,6 +107,48 @@ export const pricingTable = [
     ],
   },
   {
+    title: "Emails per Month",
+    tiers: [
+      {
+        title: TierName.TIER_1,
+        value: "75,000",
+      },
+      {
+        title: TierName.TIER_2,
+        value: "200,000",
+      },
+      {
+        title: TierName.TIER_3,
+        value: "400,000",
+      },
+      {
+        title: TierName.TIER_4,
+        value: "Custom",
+      },
+    ],
+  },
+  {
+    title: "Receipts/Orders per Month",
+    tiers: [
+      {
+        title: TierName.TIER_1,
+        value: "500",
+      },
+      {
+        title: TierName.TIER_2,
+        value: "2,500",
+      },
+      {
+        title: TierName.TIER_3,
+        value: "5,000",
+      },
+      {
+        title: TierName.TIER_4,
+        value: "Custom",
+      },
+    ],
+  },
+  {
     title: "Campaigns",
     tiers: [
       {
